@@ -1,0 +1,260 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+.navbarComponent{
+  position: sticky ;
+  z-index: 999 ;
+  background-color: #ebebeb;
+  box-shadow: 0px 3px 5px #ebebeb;
+  border-radius: 0px 0px 20px 20px;
+  padding-left: 20px;
+  top: 0px;
+}
+
+.navButtonsContainer{
+  
+  margin-top: 16px;
+}
+.navButtons{
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+.navButtons:hover{
+  border-radius: 20px;
+  background-color: #baaaaa4e;
+}
+.dropMenu{
+  display: none;
+}
+.mainPageContainer{
+  margin-left: 0px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.esbeyajaniPhoto{
+  height: 220px;
+  animation-name: liquidPhoto;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.mainInformationText{
+  font-size: 48px;
+}
+.linkedinLogo{
+  color: rgb(13, 13, 110);
+}
+.linkedinLogo:hover{
+  color: rgb(0, 55, 255);
+}
+.gitHubLogo{
+  color: rgb(43, 31, 31);
+}
+.gitHubLogo:hover{
+  color: rgb(78, 58, 58);
+  background-color: #cccccc34;
+}
+
+.aboutSection{
+  transform: translateY(20vh);
+}
+.aboutMePhotos{
+  width: 240px;
+  height: 320px;
+  overflow: hidden;
+}
+.burjBaghdad {
+  transform: translateX(20px) rotate(-4deg);
+  object-fit: none;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+.karrarKitty{ 
+  transform: translateX(8px) rotate(-1deg);
+  transition: 0.5s;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.karrarPhoto{
+  transition: 0.5s;
+  transform: translateX(-20px) rotate(2deg);
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.photosSection{
+  transform: translate(10px, 20px);
+  display: flex;
+}
+.aboutForm{
+  transform: translateY(15vh);
+  
+}
+.aboutPaddingIssue {
+  margin-left: 0px !important;
+}
+.button {
+  border: black 1px solid !important;
+  color: black !important;
+  cursor: pointer;
+  transform: translateY(150px);
+  padding: 12px 8px !important;
+}
+.button:hover{
+  background-color: #c8c8c855 !important;
+}
+
+.divderBetweenButtons{
+  border: none !important;
+}
+.handleCopyClick{
+  width: 100%;
+  cursor: pointer;
+}
+
+.divder:hover{
+  background-color: transparent !important;
+}
+
+
+@keyframes liquidPhoto {
+  0%   {border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% }
+  25% {border-radius: 56% 44% 44% 56% / 55% 57% 43% 45% }
+  50% {border-radius: 46% 54% 49% 51% / 50% 49% 51% 50% }
+  75% {border-radius: 64% 36% 75% 25% / 47% 49% 51% 53% }
+  100%   {border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% }
+}
+
+  
+
+
+@media screen and (max-width: 767px){
+  .body{
+    min-height:300vh;
+  }
+  .navbarComponent{
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .navButtonsContainer{
+    display: none;
+  }
+  .dropMenu{
+    display: flex;
+    transform: translate(60px, 15px);
+    width: 50px !important;
+  }
+  .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+    left: 260px !important;
+  }
+  .popUpMenu{
+    padding: 5px 15px 5px 15px ;
+    text-align: center;
+  }
+  a {
+    color: black;
+  }
+  .mainPageContainer{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .mainPageContent{
+    transform: translateY(180px);
+  }
+  .mainPageContent > h4{
+    width: 320px !important;
+  }
+  .esbeyajaniPhoto{
+    transform: translate(-180px, -130px);
+  }
+
+  .aboutParagraph > h3{
+    width: 320px !important;
+    transform: translate(-80px, 0px);
+  }
+  .burjBaghdad{
+    display: none;
+  }
+  .aboutMePhotos{
+    transform: translate(-40px);
+    width: 160px;
+    height: 220px;
+    overflow: hidden;
+  }
+  .karrarKitty{ 
+    transform: translateX(-22px) rotate(-5deg);
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .karrarPhoto{
+    transition: 0.5s;
+    transform: translateX(-50px) rotate(4deg);
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .aboutText{
+    transform: translate(0px, -60px);
+  }
+  .contactContainer{
+    transform: translate(15px, 450px);
+  }
+  .contactContainerSupTitle{
+    transform: translateY(-80px);
+  }
+  .contactForm{
+    transform: translate(-40px);
+  }
+  .contactFormForDesktopSizeScreen{
+    display: none !important;
+  }
+  .cobyIcon{
+    width: 20px !important;
+    transform: translate(10px, 0px);
+  }
+}
+
+@media screen and (min-width: 928px){ 
+  .body{
+    min-height:270vh;
+  }
+  .aboutMePhotos:hover{
+    transform: scale(1.3);
+  }
+  .contactContainer{
+    transform: translate(0px, 50vh);
+  }
+  .contactContainerSupTitle{
+    transform: translate(3px, 20px);
+    width: 140px !important;
+  }
+  .contactForm{
+    transform: translate(150px, -35px);
+    width: 330px ;
+  }
+  .contactFormForPhoneSizeScreen{
+    display: none !important;
+  }
+  .contactFormForDesktopSizeScreen{
+    transform: translate(0px, -25px);
+    width: 520px !important;
+  }
+  
+  .button{
+    width: 240px !important;
+  }
+  .divderBetweenButtons{
+    width: 485px !important;
+  }
+  .cobyIcon{
+    width: 20px !important;
+    transform: translate(120px, 0px);
+  }
+};
