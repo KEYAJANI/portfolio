@@ -12,6 +12,7 @@ function App() {
       style={{
         backgroundColor: "#ebebeb",
         borderRadius: "50px",
+        height: "2200px",
         margin: "25px 10px",
         boxShadow: "0px 3px 10px rgb(0 0 0 / 0.2)",
         overflow: "hidden",
@@ -110,6 +111,7 @@ function App() {
         {/* ========  CONTACT ME CONTAINER STARTS HERE ======= */}
         {/* ================================================== */}
         <Contact />
+        
       </Container>
     </div>
   );
@@ -117,3 +119,6 @@ function App() {
 
 //chunk-JDYVG6BI.js:7032 Uncaught SyntaxError: Export 'import_react3' is not defined in module
 export default App;
+// https://ibb.co/9GCJyWX
+// https://ibb.co/5vJYXyW
+// karrars photo https://ibb.co/jW9TX8J
