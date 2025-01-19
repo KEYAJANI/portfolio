@@ -33,7 +33,7 @@ function Projects() {
       img: "https://i.ibb.co/JdPHKGG/adgYs.png",
     },
   };
-  
+
   return (
     <div id="Projects" className="aboutSection">
       <div className="aboutForm card-section">
@@ -45,15 +45,13 @@ function Projects() {
             <h5
               style={{ fontSize: "16px", fontWeight: "300", color: "#52616B" }}
             >
-              I specialize in full-stack development, focusing on front-end
-              technologies like React, HTML, CSS, and JavaScript, as well as
-              back-end development with Python and Flask. I also have expertise
-              in UI/UX design using Figma. Always eager to learn, I’m
-              continuously expanding my skill set through new projects and
+              I am a Full-Stack Developer with expertise in React, HTML, CSS,
+              JavaScript, Python, Flask, and Figma for UI/UX design. I’m always
+              learning and expanding my skills through new projects and
               technologies.
             </h5>
           </Grid>
-          <Grid style={{margin: "0px 1rem 0 0"}} xs={5}>
+          <Grid style={{ margin: "0px 1rem 0 0" }} xs={5}>
             <ImgMediaCard project={project.fyay} />
           </Grid>
           <Grid className="project-cards" xs={5}>
