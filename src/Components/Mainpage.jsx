@@ -17,9 +17,12 @@ export default function Mainpage() {
                 color: "#52616B",
               }}
             >
-              Hi, I'm Karrar Esbeyajani, a Front-End React Developer who loves
-              building cool things with code. In addition to coding, I also play
-              FootBall.
+              I specialize in full-stack development, focusing on front-end
+              technologies like React, HTML, CSS, and JavaScript, as well as
+              back-end development with Python and Flask. I also have expertise
+              in UI/UX design using Figma. Always eager to learn, I’m
+              continuously expanding my skill set through new projects and
+              technologies.
             </h4>
             <div style={{ display: "flex", gap: "15px" }}>
               <a

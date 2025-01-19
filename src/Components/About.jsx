@@ -57,25 +57,17 @@ export default function About() {
                 width: "540px",
               }}
             >
-              As a Junior MERN Full-Stack Developer, I possess an impressive
-              arsenal of skills in{" "}
-              <span style={{ fontWeight: "500" }}>JavaScript</span>,{" "}
-              <span style={{ fontWeight: "500" }}>React</span>,{" "}
-              <span style={{ fontWeight: "500" }}>NodeJS</span> and{" "}
-              <span style={{ fontWeight: "500" }}>MongoDB</span>. I excel in
-              designing and maintaining responsive websites that offer a smooth
-              user experience. My expertise lies in crafting dynamic, engaging
-              interfaces through writing clean and optimized code and utilizing
-              cutting-edge development tools and techniques. I am also a team
-              player who thrives in collaborating with cross-functional teams to
-              produce outstanding web applications.
-            </h3>
-            <h3
-              className="aboutParagraph"
-              style={{ fontWeight: "300", color: "black", width: "540px" }}
-            >
-              When I'm not at my desk I am probably playing FootBall, Or playing
-              FIFA :){" "}
+              Hello World, I'm Karrar Esbeyajani! I am a Full-Stack Developer
+              with a strong focus on front-end development, specializing in
+              React, HTML, CSS, JavaScript, and Tailwind CSS for building
+              dynamic, user-friendly interfaces. On the back-end, I work with
+              Python, Flask, and API integrations to create robust server-side
+              solutions. Additionally, I am passionate about UI/UX design, using
+              tools like Figma to ensure seamless and engaging user experiences.
+              I am always learning new technologies and improving my skills to
+              stay ahead in the ever-evolving world of web development. When I'm
+              not coding, you can find me playing football or enjoying a game of
+              FIFA!
             </h3>
           </Grid>
         </Grid>
