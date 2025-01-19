@@ -5,6 +5,7 @@ import Mainpage from "./Components/Mainpage";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import { Link } from "react-scroll";
+import Projects from "./Components/Projects";
 function App() {
   return (
     <div
@@ -12,7 +13,7 @@ function App() {
       style={{
         backgroundColor: "#ebebeb",
         borderRadius: "50px",
-        height: "2200px",
+        height: "420vh",
         margin: "25px 10px",
         boxShadow: "0px 3px 10px rgb(0 0 0 / 0.2)",
         overflow: "hidden",
@@ -60,7 +61,7 @@ function App() {
                     <Link
                       style={{ color: "black" }}
                       q
-                      to="/"
+                      to="Projects"
                       spy={true}
                       smooth={true}
                       offset={50}
@@ -104,9 +105,9 @@ function App() {
         {/* ================================================== */}
         <About />
         {/* ================================================== */}
-        {/* =========  ABOUT ME CONTAINER ENDS HERE ========== */}
+        {/* =========  PROJECTS CONTAINER ENDS HERE ========== */}
         {/* ================================================== */}
-
+        <Projects />
         {/* ================================================== */}
         {/* ========  CONTACT ME CONTAINER STARTS HERE ======= */}
         {/* ================================================== */}
